@@ -4,16 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <!-- fontwasome link  -->
+    <script src="https://kit.fontawesome.com/81ff21122d.js" crossorigin="anonymous"></script>
+    <!-- Tailwind js file  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Customize Tailwind CSS  -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              Header-font: '#1C1C1C',
+              Pont: '#FF0000',
+            }
+          }
+        }
+      }
+    </script>
+      <!-- Customize Tailwind CSS End  -->
 </head>
 <body>
-    <header>
-
+    <header class="">
+        <div class="container mx-auto flex my-28 justify-between">
+            <div>
+                <h1 class="text-[#1C1C1C] text-7xl font-extrabold">It's good <br>tea time at The <br> Tea House</h1>
+                <p class="text-[#777777] text-sm font-medium my-8">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+                <button class="flex items-center rounded-md bg-gradient-to-r from-[#FF8938] to-[#FF0000]">
+                    <a href="" class=" text-white ps-4 py-2">Explore More</a> 
+                    <img class="pe-4 py-2" src="images/arrow.png" alt="">
+                </button>
+            </div>
+            <div>
+              <img src="images/banner.png" alt="">
+              <div class="flex">
+                <i class="fa-solid fa-star text-[#FFC850] px-5 mb-9"></i>
+                <h3 class="text-[#777777] text-sm font-semibold text-Pfont">Trust Pilot Ratings</h3>
+              </div>
+            </div>
+        </div>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
